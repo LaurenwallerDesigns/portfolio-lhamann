@@ -1,0 +1,189 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: local(CaviarDreams),
+      url(../fonts/CaviarDreams.woff2) format("woff2"),
+      url(../fonts/CaviarDreams.woff) format("woff"),
+      url(../fonts/CaviarDreams.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: GoLowplus;
+    src: local(GoboldLowplus),
+      url(../fonts/GoboldLowplus.woff2) format("woff2"),
+      url(../fonts/GoboldLowplus.woff) format("woff"),
+      url(../fonts/GoboldLowplus.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: Gobold;
+    src: local(GoboldThin),
+      url(../fonts/GoboldThin.woff2) format("woff2"),
+      url(../fonts/GoboldThin.woff) format("woff"),
+      url(../fonts/GoboldThin.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: GoboldHollow;
+    src: local(GoboldHollowBold),
+      url(../fonts/GoboldHollowBold.woff2) format("woff2"),
+      url(../fonts/GoboldHollowBold.woff) format("woff"),
+      url(../fonts/GoboldHollowBold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: ModernSans;
+    src: local(ModernSansLight),
+      url(../fonts/ModernSansLight.woff2) format("woff2"),
+      url(../fonts/ModernSansLight.woff) format("woff"),
+      url(../fonts/ModernSansLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: Minimal;
+    src: local(Minimal),
+      url(../fonts/minimal.woff2) format("woff2"),
+      url(../fonts/minimal.woff) format("woff"),
+      url(../fonts/minimal.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  h1 {
+    font-family: GoboldHollow;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $darkShade;
+  }
+  
+  h2 {
+    font-family: ModernSans;
+    font-size: 42px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $pop;
+  }
+  
+  h3 {
+    font-family: GoLowplus;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $lightAccent;
+  }
+  
+  nav ul li {
+    list-style: none;
+    font-family: GoLowplus;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $lightAccent;
+  }
+  @mixin quote-co {
+    font-family: Minimal;
+    font-size: 24px;
+    line-height: 1.42;
+    text-align: center;
+    color: $lightAccent;
+  }
+  
+  h4 {
+    font-family: CaviarDreams;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $darkShade;
+  }
+  
+  @mixin standout-p {
+    font-family: ModernSans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.44;
+    color: $darkAccent;
+  }
+  
+  input {
+    font-family: ModernSans;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $darkShade;
+  }
+  
+  @mixin input-disabled {
+    font-family: ModernSans;
+    font-size: 14px;
+    font-weight: 300;
+    color: $lightAccent;
+  }
+  
+  p {
+    font-family: ModernSans;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: $darkShade;
+  }
+  
+  @mixin button-label {
+    font-family: ModernSans;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: $darkShade;
+  }
+  
+  @mixin button-label-two {
+    font-family: Gobold;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    color: #fbfafb;
+  }
+  
+  @mixin tiny-p {
+    font-family: ModernSans;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $darkShade;
+  }
