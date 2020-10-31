@@ -97,8 +97,9 @@
     color: $lightAccent;
   }
   
-  nav ul li {
+  .list-item {
     list-style: none;
+    text-decoration: none;
     font-family: GoLowplus;
     font-size: 36px;
     font-weight: bold;

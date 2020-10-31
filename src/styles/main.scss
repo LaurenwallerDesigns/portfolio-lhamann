@@ -1,14 +1,29 @@
 @import "colors", "fonts", "mixins";
+
+body {
+    background-color: $darkShade;
+    margin: 0 !important;
+}
+
+#root {
+    margin: 8px;
+    background-color: #ffffff;
+}
+
 header{
     display: flex;
     flex-direction: row;
     div{
         flex-grow: 2;
         height: 30vh;
-        background-color: $lightAccent;
+        background-color: $lightShade;
     }
 }
 
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
 .about {
     text-align: center;
 }
@@ -57,4 +72,5 @@ button {
     letter-spacing: normal;
     text-align: center;
     color: $pop;
+    margin-bottom: 5vh;
 }

@@ -2,7 +2,9 @@ import React from 'react';
 
 function Contact(props) {
     return (
-        <button className="standout-btn"> Contact Me</button>
+        <section className="contact-section">
+            <button className="standout-btn"> Contact Me</button>
+        </section>
     )
 }
 
